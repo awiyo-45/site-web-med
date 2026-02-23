@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTES MEDICAMENTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <HEADER>
+        <DIV class="logo">
+            <a href="index.html"><span>VENTES</span>|MEDICAMENTS</a>
+        </DIV>
+        <UL class="menu">
+            <li><a href="PRODUIT.html">NOS PRODUITS</a></li>
+            <li><a href="apropos.html">A PROPOS</a></li>
+            <li><a href="payement.html">PAYEMENT</a></li>      
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="index.html">ACCEUIL</a></li>
+            <li><a href="LIRE.html">LIRE</a></li>
+         
+        </UL>
+       
+        <div class="responsive-menu"></div>
+    </HEADER>
+    <!-- acceuil section -->
+	<section id="home" >
+		<h2>Nous suivre</h2>
+		<h1>LA VIE EST SACREE</h1>
+		<p>LA VIE EST PRECIEUSE </p>
+        <h1>PROTEGEONS LA</h1>
+	    <P>
+             POUR NE PAS REGRETER PLUS TARD .</P>
+           
+        <a href="PRODUIT.html" class="btn-reservation home-btn">COMMANDER MAINTENANT</a> 
+        
+    </section>
+   
+       <script>
+        var toggle_menu=document.querySelector('.responsive-menu');
+        var menu=document.querySelector('.menu');
+             toggle_menu.onclick= function(){          
+             toggle_menu.classList.toggle('active');
+             menu.classList.toggle('responsive')
+            
+            
+        }
+       </script>
+
+      
+
+
+
+
+
+
+
+
+</body>
+
+</html>
